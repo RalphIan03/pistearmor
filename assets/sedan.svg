@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sedanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="sedanGlass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="320" fill="url(#sedanGrad)" rx="12"/>
+  <circle cx="300" cy="180" r="140" fill="#0284c7" fill-opacity="0.08"/>
+  <line x1="40" y1="270" x2="560" y2="270" stroke="#334155" stroke-width="1.5" stroke-dasharray="8 6"/>
+  <ellipse cx="300" cy="265" rx="230" ry="12" fill="#020617" opacity="0.8"/>
+  
+  <!-- Executive Sedan Body Shell (Low, Elegant, Extended Wheelbase) -->
+  <path d="M 70 230 
+           L 78 200 
+           L 135 185 
+           L 210 175 
+           L 275 125 
+           L 415 125 
+           L 475 175 
+           L 535 190 
+           L 535 235 
+           L 490 235 
+           A 40 40 0 0 0 410 235 
+           L 200 235 
+           A 40 40 0 0 0 120 235 
+           Z" 
+        fill="#1e293b" stroke="#64748b" stroke-width="2"/>
+  
+  <!-- Ballistic Glass -->
+  <polygon points="280,132 230,175 330,175 330,132" fill="url(#sedanGlass)" stroke="#38bdf8" stroke-width="1.5"/>
+  <polygon points="338,132 338,175 410,175 410,132" fill="url(#sedanGlass)" stroke="#38bdf8" stroke-width="1.5"/>
+  <polygon points="418,132 418,175 465,175" fill="url(#sedanGlass)" stroke="#38bdf8" stroke-width="1.5"/>
+
+  <!-- Character lines & Door Overlaps -->
+  <line x1="334" y1="132" x2="334" y2="232" stroke="#0ea5e9" stroke-width="2"/>
+  <line x1="414" y1="132" x2="414" y2="232" stroke="#0ea5e9" stroke-width="1.5"/>
+  <line x1="135" y1="185" x2="525" y2="195" stroke="#94a3b8" stroke-width="1.2" opacity="0.7"/>
+
+  <!-- Wheels -->
+  <g transform="translate(160, 235)">
+    <circle cx="0" cy="0" r="36" fill="#090d16" stroke="#475569" stroke-width="3"/>
+    <circle cx="0" cy="0" r="23" fill="#1e293b" stroke="#64748b" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="12" fill="#0284c7" opacity="0.6"/>
+    <circle cx="0" cy="0" r="4" fill="#f8fafc"/>
+  </g>
+
+  <g transform="translate(450, 235)">
+    <circle cx="0" cy="0" r="36" fill="#090d16" stroke="#475569" stroke-width="3"/>
+    <circle cx="0" cy="0" r="23" fill="#1e293b" stroke="#64748b" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="12" fill="#0284c7" opacity="0.6"/>
+    <circle cx="0" cy="0" r="4" fill="#f8fafc"/>
+  </g>
+
+  <!-- Level Badge -->
+  <g transform="translate(480, 40)">
+    <rect x="-40" y="-14" width="80" height="28" rx="6" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="0" y="5" fill="#f59e0b" font-size="11" font-family="monospace" font-weight="bold" text-anchor="middle">VR9 / B7</text>
+  </g>
+  <text x="40" y="50" fill="#94a3b8" font-size="12" font-family="monospace" letter-spacing="1.5">EXECUTIVE STATE SEDAN</text>
+</svg>

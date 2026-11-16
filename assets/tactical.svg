@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="tacGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="320" fill="url(#tacGrad)" rx="12"/>
+  <circle cx="300" cy="180" r="140" fill="#dc2626" fill-opacity="0.05"/>
+  <line x1="40" y1="270" x2="560" y2="270" stroke="#334155" stroke-width="1.5" stroke-dasharray="8 6"/>
+  <ellipse cx="300" cy="265" rx="240" ry="16" fill="#000000" opacity="0.9"/>
+  
+  <!-- Tactical Armored Truck / APC Body (Angular, Deflective Armor Plates) -->
+  <path d="M 60 225 
+           L 75 180 
+           L 130 160 
+           L 200 135 
+           L 245 90 
+           L 520 90 
+           L 540 160 
+           L 540 225 
+           L 490 225 
+           A 46 46 0 0 0 398 225 
+           L 222 225 
+           A 46 46 0 0 0 130 225 
+           Z" 
+        fill="#1e293b" stroke="#64748b" stroke-width="2.5"/>
+  
+  <!-- Roof Turret / Observation Hatch -->
+  <rect x="330" y="74" width="75" height="16" rx="3" fill="#334155" stroke="#f59e0b" stroke-width="1.5"/>
+  <polygon points="360,74 375,60 385,60 390,74" fill="#475569" stroke="#f59e0b" stroke-width="1.5"/>
+
+  <!-- Narrow Slit Ballistic Windows -->
+  <polygon points="240,98 200,135 270,135 270,98" fill="#38bdf8" fill-opacity="0.3" stroke="#38bdf8" stroke-width="1.5"/>
+  <rect x="285" y="102" width="55" height="24" rx="2" fill="#38bdf8" fill-opacity="0.25" stroke="#38bdf8" stroke-width="1.5"/>
+  <rect x="355" y="102" width="55" height="24" rx="2" fill="#38bdf8" fill-opacity="0.25" stroke="#38bdf8" stroke-width="1.5"/>
+  <rect x="425" y="102" width="55" height="24" rx="2" fill="#38bdf8" fill-opacity="0.25" stroke="#38bdf8" stroke-width="1.5"/>
+
+  <!-- Gunports -->
+  <circle cx="312" cy="155" r="7" fill="#0f172a" stroke="#ef4444" stroke-width="2"/>
+  <circle cx="382" cy="155" r="7" fill="#0f172a" stroke="#ef4444" stroke-width="2"/>
+  <circle cx="452" cy="155" r="7" fill="#0f172a" stroke="#ef4444" stroke-width="2"/>
+
+  <!-- Heavy Offroad Wheels -->
+  <g transform="translate(176, 225)">
+    <circle cx="0" cy="0" r="44" fill="#090d16" stroke="#475569" stroke-width="3.5"/>
+    <circle cx="0" cy="0" r="28" fill="#1e293b" stroke="#64748b" stroke-width="2"/>
+    <circle cx="0" cy="0" r="16" fill="#f59e0b" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="6 3"/>
+    <circle cx="0" cy="0" r="6" fill="#f8fafc"/>
+  </g>
+
+  <g transform="translate(444, 225)">
+    <circle cx="0" cy="0" r="44" fill="#090d16" stroke="#475569" stroke-width="3.5"/>
+    <circle cx="0" cy="0" r="28" fill="#1e293b" stroke="#64748b" stroke-width="2"/>
+    <circle cx="0" cy="0" r="16" fill="#f59e0b" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="6 3"/>
+    <circle cx="0" cy="0" r="6" fill="#f8fafc"/>
+  </g>
+
+  <!-- Level Badge -->
+  <g transform="translate(480, 40)">
+    <rect x="-40" y="-14" width="80" height="28" rx="6" fill="#1e293b" stroke="#ef4444" stroke-width="1.5"/>
+    <text x="0" y="5" fill="#fca5a5" font-size="11" font-family="monospace" font-weight="bold" text-anchor="middle">STANAG 1/B7</text>
+  </g>
+  <text x="40" y="50" fill="#94a3b8" font-size="12" font-family="monospace" letter-spacing="1.5">TACTICAL INTERCEPTOR / APC</text>
+</svg>
